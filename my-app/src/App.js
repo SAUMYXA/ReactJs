@@ -1,8 +1,8 @@
-import './App.css';
-function App(){
-    return (
-    <div className="app-container"><h3> First Component</h3><p>yoooo</p>
-        </div>
-    );
+import "./App.css";
+import SubComponent from "./components/SubComponent";
+
+function App() {
+  return (<div> <h1>yrrrr</h1>
+  <SubComponent></SubComponent></div>);
 }
 export default App;
